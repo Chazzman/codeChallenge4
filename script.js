@@ -9,8 +9,8 @@ fs.readFile('./input.txt', (error, rawData) => {
 			rawData[ix] === 40 ? total++ : total--
 		};
 		console.timeEnd('funchallenge');
-		// console.log(`Santa must climb ${total} floors!`);
+		console.log(`Santa must climb ${total} floors!`);
 	} else {
 		console.error(`ERROR: ${error}`);
-	}
+	} 
 });
